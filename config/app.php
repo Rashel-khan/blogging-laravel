@@ -14,7 +14,7 @@ return [
     */
 
     'name' => env('APP_NAME', 'Laravel'),
-    'description'=> "Retrieving for the future by empowering the community in the era of technology, scaling the growth in today for the future.",
+    'description'=> "",
 
     /*
     |--------------------------------------------------------------------------

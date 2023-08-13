@@ -10,10 +10,10 @@ return [
          */
         'defaults'       => [
             'title'        => false, // set false to total remove
-            'titleBefore'  => "Retrieval IT", // Put defaults.title before page title, like 'It's Over 9000! - Dashboard'
+            'titleBefore'  => "Blogging", // Put defaults.title before page title, like 'It's Over 9000! - Dashboard'
             'description'  => config('app.description'), // set false to total remove
             'separator'    => ' - ',
-            'keywords'     => ['Retrieval IT, Website design','web development','retrieve','pos solution',' digital marketing',' it company bd'],
+            'keywords'     => ['blogging'],
             'canonical'    => false, // Set to null or 'full' to use Url::full(), set to 'current' to use Url::current(), set false to total remove
             'robots'       => 'index, follow', // Set to 'all', 'none' or any combination of index/noindex and follow/nofollow
         ],
@@ -21,11 +21,11 @@ return [
          * Webmaster tags are always added.
          */
         'webmaster_tags' => [
-            'google'    => 'GTM-W5WH57P',
+            'google'    => null,
             'bing'      => null,
             'alexa'     => null,
             'pinterest' => null,
-            'yandex'    => '3da65068d993958b',
+            'yandex'    => null,
             'norton'    => null,
         ],
 

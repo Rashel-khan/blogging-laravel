@@ -11,7 +11,7 @@ class Index extends Component
 
     public function render()
     {
-        SEOMeta::setTitle("Retrieving for the future");
+        SEOMeta::setTitle("Latest Tech Blog");
         return view('livewire.guest.index')
             ->layout('layouts.guest');
     }

@@ -32,6 +32,10 @@ class PermissionTableSeeder extends Seeder
             'blog-create',
             'blog-edit',
             'blog-delete',
+            'blog-category-list',
+            'blog-category-create',
+            'blog-category-edit',
+            'blog-category-delete',
             'create-admin',
             'edit-admin',
             'feature-user-set'
