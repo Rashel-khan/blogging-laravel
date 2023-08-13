@@ -3,20 +3,17 @@
         <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
             <div>
                 <div class="flex justify-center text-teal-600 sm:justify-start">
-                    <h1 class="text-xl font-bold text-blue-600">
+                    <h1 class="text-xl font-bold text-orange-400">
                         {{ config('app.name') }}
                     </h1>
                 </div>
 
-                <p class="flex mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-500 sm:mx-0 sm:max-w-xs
-                sm:text-left text-justify">
-                </p>
 
                 <ul class="mt-8 flex justify-center items-center gap-6 sm:justify-start md:gap-8">
                     <li>
                         <a href="#"
                            rel="noreferrer" target="_blank"
-                           class="text-blue-500 hover:text-blue-500/75">
+                           class="text-orange-400 hover:text-orange-500">
                             <span class="sr-only">Facebook</span>
                             <svg class="h-6 w-6" fill="currentColor"
                                  viewBox="0 0 24 24" aria-hidden="true">
@@ -29,7 +26,7 @@
 
                     <li>
                         <a href="#" rel="noreferrer"
-                           target="_blank" class="text-blue-500 hover:text-blue-500/75">
+                           target="_blank" class="text-orange-400 hover:text-orange-500">
                             <span class="sr-only">Twitter</span>
                             <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                                 <path
@@ -41,7 +38,7 @@
 
                     <li>
                         <a href="#" rel="noreferrer" target="_blank"
-                           class="text-blue-500  hover:text-blue-500/75">
+                           class="text-orange-400 hover:text-orange-500">
                             <span class="sr-only">Twitter</span>
                             <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                                 <path fill-rule="evenodd"
@@ -54,7 +51,7 @@
                     <li>
                         <a href="#"
                            rel="noreferrer" target="_blank"
-                           class="text-blue-500 hover:text-blue-500/75">
+                           class="text-orange-400 hover:text-orange-500">
                             <span class="sr-only">LinkedIn</span>
                             <svg fill="currentColor" id="lni_lni-linkedin-original"
                                  xmlns="http://www.w3.org/2000/svg"

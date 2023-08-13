@@ -2,9 +2,6 @@
 <div class="bg-gray-100">
     <div class="bg-[url('/img/Web-hero-mobile.svg')] lg:bg-[url('/img/Web-hero.svg')] bg-no-repeat bg-cover
 lg:min-h-screen md:min-h-[60vh]">
-        <div class="text-gray-200">
-            {{ $nav }}
-        </div>
         <div class="min-h-screen flex flex-col sm:justify-center items-center mt-5 sm:-mt-12">
             @if(isset($logo))
                 <div>

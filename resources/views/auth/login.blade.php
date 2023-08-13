@@ -4,13 +4,6 @@
 <x-guest-layout>
 
     <x-auth-card>
-        <x-slot name="nav">
-            <livewire:guest.components.nav x-bind:class="text-gray-200"/>
-        </x-slot>
-        <x-slot name="logo">
-            <x-auth-card-logo/>
-        </x-slot>
-
 
         <form id="login-form" method="POST" action="{{ route('login') }}">
             <p class="text-lg font-medium mb-2 flex justify-center">Sign in to your account</p>

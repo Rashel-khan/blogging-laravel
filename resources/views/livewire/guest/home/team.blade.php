@@ -5,12 +5,9 @@
         <section class="max-w-7xl mx-auto py-12 overflow-hidden">
             <div class="text-center pb-12">
 
-                <h2 class="text-3xl font-bold mb-4 ">OUR TEAM</h2>
-                <h3 class="font-bold text-3xl md:text-2xl lg:text-5xl font-heading text-white capitalize">
-                    Check our awesome team members
-                </h3>
+                <h2 class="text-3xl font-bold mb-4 ">Featured Authors</h2>
                 <p class="lg:w-2/3 mx-auto leading-relaxed text-base ">
-                    A group of experts that work together to achieve the best results
+                    Top Authors We Have Had Last Month
                 </p>
             </div>
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
@@ -103,7 +100,6 @@
             </div>
         </section>
     </div>
-
 
 
 </section>

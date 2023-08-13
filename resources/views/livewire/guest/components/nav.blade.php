@@ -1,4 +1,3 @@
-
 <header aria-label="Site Header"
         class="bg-gray-800 w-full flex justify-between items-center px-4 md:px-36"
         :class="{ 'h-20': !scrollFromTop,
@@ -46,11 +45,35 @@
                 <a class="hover:text-white md:hover:text-orange-400 hover:font-bold"
                    href="#contact" x-on:click="navbarOpen = false">Contact</a>
             </li>
-            <li>
-                <a href="{{ route('login') }}">
-                    <x-button-lg-right>Login</x-button-lg-right>
-                </a>
-            </li>
+
+            @if( auth()->check() && auth()->user())
+                <li>
+                    @if(auth()->user()->role !== 'member')
+                        <a class="hover:text-white md:hover:text-orange-400 hover:font-bold"
+                           href="{{ route('admin.dashboard') }}" x-on:click="navbarOpen = false">Dashboard</a>
+                    @else
+                        <a class="hover:text-white md:hover:text-orange-400 hover:font-bold"
+                           href="{{ route('user.profile') }}" x-on:click="navbarOpen = false">Profile</a>
+                    @endif
+                </li>
+                <li>
+                    <form method="POST" action="{{ route('logout') }}" x-data>
+                        @csrf
+                        <a href="{{ route('logout') }}"
+                           class="hover:text-white md:hover:text-orange-400 hover:font-bold"
+                           @click.prevent="$root.submit();">
+                            {{ __('Sign-out') }}
+                        </a>
+                    </form>
+                </li>
+            @else
+                <li>
+                    <a href="{{ route('login') }}">
+                        <x-button-lg-right>Sign-in</x-button-lg-right>
+                    </a>
+                </li>
+
+            @endif
 
 
         </ul>
