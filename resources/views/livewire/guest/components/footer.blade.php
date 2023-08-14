@@ -1,4 +1,4 @@
-<footer aria-label="Site Footer" class="bg-white border-t-4 border-blue-500/75">
+<footer aria-label="Site Footer" class="bg-white border-t-4 border-orange-500/75">
     <div class="mx-auto max-w-screen-xl px-4 pt-16 pb-6 sm:px-6 lg:px-8 lg:pt-24">
         <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
             <div>

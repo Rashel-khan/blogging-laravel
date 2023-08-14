@@ -20,6 +20,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', \App\Http\Livewire\Guest\Index::class)->name('index');
 Route::get('sitemap.xml', \App\Http\Controllers\sitemapGeneratorController::class . '@index')->name('sitemap');
 Route::get('verify-admin', \App\Http\Livewire\Guest\VerifyAdmin::class)->name('verify-admin');
+Route::get('contact', \App\Http\Livewire\Guest\Contact::class)->name('contact');
 
 Route::group([
     'middleware' => ['auth:sanctum', config('jetstream.auth_session'), 'verified',],

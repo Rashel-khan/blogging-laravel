@@ -1,4 +1,4 @@
-<div class="z-[999] dark:border-r dark:border-blue-400/50">
+<div class="z-[999] dark:border-r dark:border-orange-500/50">
 
     <div x-cloak :class="sidebarOpen ?'block': 'hidden'" @click="sidebarOpen = !sidebarOpen"
          class="inset-0 transition-opacity bg-black opacity-50 lg:hidden backdrop-blur-md"></div>
@@ -11,9 +11,11 @@
         <!-- Sidebar Header -->
         <div class=" items-center justify-center my-2">
             <div class="flex items-center justify-center py-2 px-4">
-                <x-logo-wide class="block h-20 w-auto leading-loose"></x-logo-wide>
+              <h1 class="text-orange-400 text-[2.5rem] font-bold">
+                  {{ config('app.name') }}
+              </h1>
             </div>
-            <hr class="border-blue-500/50 my-1"/>
+            <hr class="border-orange-500/50"/>
         </div>
 
         <nav class="mt-5">

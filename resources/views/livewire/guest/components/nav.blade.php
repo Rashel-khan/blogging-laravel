@@ -43,7 +43,7 @@
             </li>
             <li>
                 <a class="hover:text-white md:hover:text-orange-400 hover:font-bold"
-                   href="#contact" x-on:click="navbarOpen = false">Contact</a>
+                   href="{{ route('contact') }}" x-on:click="navbarOpen = false">Contact</a>
             </li>
 
             @if( auth()->check() && auth()->user())
